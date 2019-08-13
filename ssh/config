@@ -1,0 +1,11 @@
+Host *
+ServerAliveInterval 90
+
+Host b2wads-vpn-host
+  Hostname vpn.b2wads.com
+  User georgevalentim
+  Port 22
+
+Host 10.244.*
+  ProxyCommand ssh b2wads-vpn-host -W %h:%p
+  User ubuntu
