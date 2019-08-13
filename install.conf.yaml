@@ -1,10 +1,10 @@
 - defaults:
-  link:
-    relink: true
-    create: true
+    link:
+      relink: true
+      create: true
 
 - link:
-  ~/.gnupg/gpg.conf:
-    path: gpg/gpg.conf
-  ~/.gnupg/gpg-agent.conf:
-    path: gpg/gpg-agent.conf
+    ~/.gnupg/gpg.conf:
+      path: gnupg/gpg.conf
+    ~/.gnupg/gpg-agent.conf:
+      path: gnupg/gpg-agent.conf
