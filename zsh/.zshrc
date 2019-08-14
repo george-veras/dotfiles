@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/george.valentim/.oh-my-zsh"
@@ -75,6 +75,15 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH="/usr/local/sbin:$PATH"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+GPG_TTY=$(tty)
+export GPG_TTY
+if [ -z "${SSH_TTY}" ]; then
+  export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
+fi
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -100,13 +109,3 @@ source $ZSH/oh-my-zsh.sh
 alias b2wads.vpn="/usr/bin/ssh -ND 10016 b2wads-vpn-host -v"
 alias b2wads.gatling="ssh 10.244.19.12"
 alias b2wads.sshuttle="sshuttle --dns -r b2wads-vpn-host 172.31.0.0/16 10.244.16.0/21 10.237.0.0/16 -x 10.237.2.32/32"
-
- export NVM_DIR=~/.nvm
- [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
-GPG_TTY=$(tty)
-export GPG_TTY
-
-if [ -z "${SSH_TTY}" ]; then
-  export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
-fi

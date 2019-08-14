@@ -11,6 +11,6 @@
     ~/.ssh/config:
       path: ssh/config
     ~/.zshrc:
-      path: zsh/zshrc
+      path: zsh/.zshrc
     ~/.gitconfig:
-      path: git/gitconfig
+      path: git/.gitconfig
