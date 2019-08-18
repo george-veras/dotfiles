@@ -2,6 +2,12 @@
     link:
       relink: true
       create: true
+      force: false
+
+- shell:
+  - command: git submodule update --init --recursive
+    description: Installing submodules
+    stdout: true
 
 - link:
     ~/.gnupg/gpg.conf:
