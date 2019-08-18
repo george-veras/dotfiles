@@ -1,0 +1,13 @@
+{
+    "window.zoomLevel": 1,
+    "editor.tabSize": 2,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path": "/Users/georgeverasvalentim/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.minikube-path": "/Users/georgeverasvalentim/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.draft-path": "/Users/georgeverasvalentim/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+    },
+    "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.iconTheme": "vscode-icons"
+}

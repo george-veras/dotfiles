@@ -14,3 +14,5 @@
       path: zsh/.zshrc
     ~/.gitconfig:
       path: git/.gitconfig
+    ~/Library/Application Support/Code/User/settings.json:
+      path: vscode/settings.json
