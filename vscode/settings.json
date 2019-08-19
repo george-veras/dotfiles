@@ -9,5 +9,6 @@
         "vs-kubernetes.draft-path": "/Users/georgeverasvalentim/.vs-kubernetes/tools/draft/darwin-amd64/draft"
     },
     "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "vscode-icons"
 }

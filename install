@@ -2,12 +2,12 @@
 
 set -e
 
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-  # ...
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-  CONFIG="install.conf.yaml"
+if [ "$OSTYPE" == "linux-gnu" ]; then
+  CONFIG="install-linux.conf.yaml"
+elif [ "$OSTYPE" == "darwin"* ]; then
+  CONFIG="install-mac.conf.yaml"
 else
-  # Unknown.
+  CONFIG="install.conf.yaml"
 fi
 
 DOTBOT_DIR="dotbot"
