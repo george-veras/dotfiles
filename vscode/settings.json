@@ -10,5 +10,7 @@
     },
     "diffEditor.ignoreTrimWhitespace": true,
     "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
