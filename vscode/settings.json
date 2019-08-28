@@ -12,5 +12,7 @@
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "vscode-icons",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.sideBar.location": "left",
+    "editor.renderControlCharacters": false
 }

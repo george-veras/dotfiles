@@ -8,6 +8,9 @@
   - command: git submodule update --init --recursive
     description: Installing submodules
     stdout: true
+  - command: ./vscode/install.sh
+    description: Installing Visual Studio Code extensions
+    stdout: true
 
 - link:
     ~/.gnupg/gpg.conf:
