@@ -83,6 +83,7 @@ export PATH="$HOME/.local/bin:$PYENV_ROOT/bin:/usr/local/sbin:$PATH"
 
 GPG_TTY=$(tty)
 export GPG_TTY
+
 if [ -z "${SSH_TTY}" ]; then
   export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
 fi
@@ -110,7 +111,8 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias b2wads.vpn="/usr/bin/ssh -ND 10016 b2wads-vpn-host -v"
 alias b2wads.gatling="ssh 10.244.19.12"
-alias b2wads.sshuttle="sshuttle --dns -r b2wads-vpn-host 172.31.0.0/16 10.244.16.0/21 10.237.0.0/16 -x 10.237.2.32/32"
+alias b2wads.sshuttle="sshuttle --dns -r b2wads-vpn-host 172.31.0.0/16 10.244.16.0/21 10.237.0.0/16 10.221.224.0/20"
+alias gpg.agent.enable-ssh-support="sudo killall gpg-agent & sudo killall ssh-agent & eval $( gpg-agent --daemon --enable-ssh-support )"
 
 # Must keep this at the end of the file
 if command -v pyenv 1>/dev/null 2>&1; then
