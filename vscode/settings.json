@@ -6,13 +6,29 @@
     "vs-kubernetes": {
         "vs-kubernetes.helm-path": "/Users/georgeverasvalentim/.vs-kubernetes/tools/helm/darwin-amd64/helm",
         "vs-kubernetes.minikube-path": "/Users/georgeverasvalentim/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
-        "vs-kubernetes.draft-path": "/Users/georgeverasvalentim/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+        "vs-kubernetes.draft-path": "/Users/georgeverasvalentim/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+        "vs-kubernetes.minikube-path.mac": "/Users/georgeverasvalentim/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vscode-kubernetes.minikube-path.mac": "/Users/georgeverasvalentim/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
     },
-    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "vscode-icons",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.sideBar.location": "left",
-    "editor.renderControlCharacters": false
+    "editor.renderControlCharacters": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "files.associations": {
+        "*.dot": "dot"
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.minimap.enabled": false,
+    "files.autoSave": "off",
+    "editor.quickSuggestions": true,
+    "files.insertFinalNewline": true,
+    "svg.preview.mode": "svg"
 }
