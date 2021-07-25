@@ -30,5 +30,8 @@
   "files.autoSave": "off",
   "editor.quickSuggestions": true,
   "files.insertFinalNewline": true,
-  "svg.preview.mode": "svg"
+  "svg.preview.mode": "svg",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily":"Fira Code"
 }
