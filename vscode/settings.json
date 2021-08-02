@@ -33,5 +33,5 @@
   "svg.preview.mode": "svg",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "terminal.integrated.fontFamily":"Fira Code"
+  "terminal.integrated.fontFamily": "Fira Code"
 }
