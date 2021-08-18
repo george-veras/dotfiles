@@ -105,10 +105,13 @@ fi
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
+alias dotfiles.open="cd /Users/georgeverasvalentim/.dotfiles && git status && code ."
+alias dotfiles.pull="cd /Users/georgeverasvalentim/.dotfiles && git pull"
+
 alias b2wads.vpn="/usr/bin/ssh -ND 10016 b2wads-vpn-host -v"
 alias b2wads.gatling="ssh 10.244.19.12"
 alias b2wads.sshuttle="sshuttle --dns -r b2wads-vpn-host 172.31.0.0/16 10.244.16.0/21 10.237.0.0/16 10.221.224.0/20"
-alias dotfiles.open="cd /Users/georgeverasvalentim/.dotfiles && git status && code ."
+
 alias forge.open="cd /Users/georgeverasvalentim/Projects/junglescout/forge && nvm use && git status && code ."
 # alias gpg-agent.enable-ssh-support="sudo killall gpg-agent & sudo killall ssh-agent & eval $( gpg-agent --daemon --enable-ssh-support )"
 
