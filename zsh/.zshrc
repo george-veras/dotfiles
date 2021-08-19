@@ -107,6 +107,7 @@ fi
 # For a full list of active aliases, run `alias`.
 alias dotfiles.open="cd /Users/georgeverasvalentim/.dotfiles && git status && code ."
 alias dotfiles.pull="git -C /Users/georgeverasvalentim/.dotfiles pull"
+alias dotfiles.go="cd /Users/georgeverasvalentim/.dotfiles"
 
 alias b2wads.vpn="/usr/bin/ssh -ND 10016 b2wads-vpn-host -v"
 alias b2wads.gatling="ssh 10.244.19.12"
