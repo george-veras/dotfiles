@@ -110,6 +110,7 @@ alias dotfiles.pull="git -C /Users/georgeverasvalentim/.dotfiles pull"
 alias dotfiles.go="cd /Users/georgeverasvalentim/.dotfiles"
 
 alias forge.open="cd /Users/georgeverasvalentim/Projects/junglescout/forge && nvm use && git status && code ."
+alias cerebro.open="cd /Users/georgeverasvalentim/Projects/junglescout/cerebro && git status && code ."
 # alias gpg-agent.enable-ssh-support="sudo killall gpg-agent & sudo killall ssh-agent & eval $( gpg-agent --daemon --enable-ssh-support )"
 
 alias b2wads.vpn="/usr/bin/ssh -ND 10016 b2wads-vpn-host -v"
