@@ -1,5 +1,4 @@
 {
-  "window.zoomLevel": 1,
   "editor.tabSize": 2,
   "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "all",
@@ -39,5 +38,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "diffEditor.codeLens": true
+  "diffEditor.codeLens": true,
+  "window.zoomLevel": 1
 }
